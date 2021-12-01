@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: lavender;
+}
+
+.header {
+  width: 100%;
+  height: 20vh;
+  background-color: darkmagenta;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: aliceblue;
+  font-family: Arial;
+  font-style: italic;
+  border: 1 px solid darkmagenta;
+  padding: 10px;
+  background-color: black;
+}
+
+.info {
+  display: flex;
+  justify-items: flex-start;
+  flex-direction: row;
+  height: 70 vh;
+  border: 1px solid darkslateblue;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: lightpink;
+  text-align: center;
+  font-size: 25px;
+  color: darkslateblue;
+  font-style: italic;
+  font-weight: bold;
+}
+.button {
+  border: 2px solid darkmagenta;
+  color: darkmagenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  margin: 20px 40px;
+}
+
+.content {
+  width: 80%;
+  background-color: lightsteelblue;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: darkslateblue;
+  color: darkslateblue;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.categ {
+  border: 2px solid darkmagenta;
+  background-color: darkmagenta;
+  padding: 10 px;
+  color: aliceblue;
+  margin: 27px;
+}
+.pics {
+  margin-left: 20%;
+}
+
+.author {
+  width: 40%;
+  margin-left: 40px;
+  background-color: white;
+  padding: 5px;
+}
